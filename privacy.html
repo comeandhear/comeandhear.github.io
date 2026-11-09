@@ -20,9 +20,12 @@
   <p class="sub">Come and Hear publishing tools · effective November 6, 2026</p>
 
   <p>This policy covers the private production tools of the YouTube channel
-  <a href="https://www.youtube.com/channel/UCRrlLKF5GnbN8nMmjt1ilhw">Come and Hear</a> (the "tools"). The tools use
-  YouTube API Services. By using them you agree to the
-  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the
+  <a href="https://www.youtube.com/channel/UCRrlLKF5GnbN8nMmjt1ilhw">Come and Hear</a> (the "tools"). Using the tools
+  means agreeing to this policy.</p>
+
+  <h2>YouTube API Services</h2>
+  <p>The tools use YouTube API Services (the YouTube Data API, the YouTube Analytics API and the YouTube Reporting API). By using the tools you
+  agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. The
   <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies to the data Google handles.</p>
 
   <h2>Who uses the tools</h2>
@@ -32,26 +35,42 @@
   <h2>What data the tools access</h2>
   <p>With the owner's authorization through Google sign-in, the tools access, for the Come and Hear channel only:</p>
   <ul>
-    <li>the channel's videos, playlists, captions, thumbnails and their titles, descriptions, tags and translations
-    (YouTube Data API), to publish and update them;</li>
-    <li>the channel's aggregated statistics, such as views, watch time and audience retention (YouTube Analytics
-    API), to plan new videos.</li>
+    <li>the channel's videos, playlists, captions, thumbnails and comments, and their titles, descriptions, tags and
+    translations (YouTube Data API), to publish and update them;</li>
+    <li>the channel's aggregated statistics, such as views, watch time, audience retention, thumbnail impressions and
+    click-through rate (YouTube Analytics and Reporting APIs), to plan new videos.</li>
   </ul>
-  <p>The tools do not collect personal information about viewers, commenters or any other YouTube user.</p>
+  <p>To research topics for new videos, the tools also run YouTube searches and read public information about the
+  videos found: title, channel name, thumbnail, public view count and duration, shown as YouTube returns them,
+  without any metric calculated from them. The tools do not collect personal information about viewers, commenters or any other YouTube user.</p>
 
-  <h2>How the data is used and stored</h2>
-  <p>The data is used only to produce and manage the channel's own videos. The authorization token is stored in a
-  file readable only by the owner, on the owner's private server. Video metadata and aggregated statistics are kept
-  in the owner's private project records for as long as they are useful for the channel and are deleted when no
-  longer needed. Nothing is sold, shared with third parties or used for advertising.</p>
+  <h2>How the data is used and shared</h2>
+  <p>The data is used only to produce and manage the channel's own videos. The owner may use AI assistants
+  (Anthropic's Claude) to help read the channel's statistics and research results; they process the data only to
+  assist the owner. Nothing is sold, shared with other parties or used for advertising. The tools do not allow third
+  parties to serve content or advertisements.</p>
 
-  <h2>Revoking access</h2>
-  <p>The access can be revoked at any time on the Google security settings page,
-  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. After revocation the stored
-  token stops working and is deleted.</p>
+  <h2>How the data is stored</h2>
+  <ul>
+    <li>The authorization token is stored in a file readable only by the owner, on the owner's private server.</li>
+    <li>The channel's own statistics are kept in the owner's private project records for as long as they are needed
+    to plan the channel's videos. The tools use the authorization every few days, which confirms at least every 30
+    days that it is still valid.</li>
+    <li>Search results about other channels' videos (titles, channel names, thumbnails and public counts) are kept for
+    30 days at most and then deleted automatically.</li>
+    <li>The tools are command-line programs: they place no cookies or similar technology on anyone's device. This
+    website uses no cookies and no analytics.</li>
+  </ul>
+
+  <h2>Revoking access and deleting data</h2>
+  <p>Access can be revoked at any time on the Google security settings page,
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. After a revocation, the
+  stored token and the data obtained through the YouTube API Services are deleted within 30 days. A request to delete
+  stored data, sent to the contact below, is fulfilled within 7 days.</p>
 
   <h2>Contact</h2>
-  <p><a href="mailto:comeandhear.channel@gmail.com">comeandhear.channel@gmail.com</a></p>
+  <p>Questions about this policy or the tools:
+  <a href="mailto:comeandhear.channel@gmail.com">comeandhear.channel@gmail.com</a></p>
 
   <footer><a href="index.html">Come and Hear</a> · <a href="terms.html">Terms of Service</a></footer>
 </main>

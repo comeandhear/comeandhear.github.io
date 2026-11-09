@@ -12,6 +12,7 @@
   h1 { font-size: 2rem; margin: 0 0 4px; } h2 { font-size: 1.2rem; margin-top: 2em; }
   p.sub { color: var(--muted); margin-top: 0; } a { color: var(--link); }
   footer { margin-top: 3em; color: var(--muted); font-size: .9rem; }
+  .badge img { height: 40px; width: auto; display: block; margin-top: 8px; }
 </style>
 </head>
 <body>
@@ -26,14 +27,26 @@
   <h2>Come and Hear publishing tools</h2>
   <p>The channel uses a private set of production tools, run by the channel owner on their own server, to manage
   the channel's own videos through the YouTube Data API and to read the channel's own statistics through the
-  YouTube Analytics API. With the owner's authorization, the tools:</p>
+  YouTube Analytics and Reporting APIs. With the owner's authorization, the tools:</p>
   <ul>
+    <li>upload the channel's finished videos as private (publishing is always done by hand, in YouTube Studio);</li>
     <li>set the title, description, tags and translated titles and descriptions of the channel's videos;</li>
-    <li>upload and update the channel's captions and thumbnails, and add videos to the channel's playlists;</li>
-    <li>read the channel's own video statistics (views, watch time, retention) to plan new videos.</li>
+    <li>upload and update the channel's captions and thumbnails, add videos to the channel's playlists and post the
+    channel's own comment under its videos;</li>
+    <li>read the channel's own video statistics (views, watch time, retention, thumbnail impressions and click-through rate) to plan new videos;</li>
+    <li>search public YouTube videos on a Bible story, to see which topics and titles viewers look for (these
+    results are kept for 30 days at most).</li>
   </ul>
   <p>The tools are not offered to the public: the only account that signs in is the channel's own. They use YouTube
-  API Services; see the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+  API Services; see the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and our
+  <a href="privacy.html">Privacy Policy</a>.</p>
+  <a class="badge" href="https://www.youtube.com/channel/UCRrlLKF5GnbN8nMmjt1ilhw">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="developed-with-youtube-light.png">
+      <img src="developed-with-youtube-dark.png" alt="Developed with YouTube">
+    </picture>
+  </a>
 
   <footer>
     <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> ·
